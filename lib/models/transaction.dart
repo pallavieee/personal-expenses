@@ -6,6 +6,7 @@ class Transaction {
   final double amount;
   final DateTime date;
 
+//constructor
   Transaction({
     @required this.id,
     @required this.title,
