@@ -29,9 +29,7 @@ class MyApp extends StatelessWidget {
               titleTextStyle: TextStyle(
                   fontFamily: 'OpenSans',
                   fontSize: 20,
-                  fontWeight: FontWeight.bold
-                )
-              )),
+                  fontWeight: FontWeight.bold))),
       home: MyHomePage(),
     );
   }
@@ -45,6 +43,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  //list of transaction
   final List<Transaction> _userTransactions = [
     // Transaction(
     //   id: 't1',
